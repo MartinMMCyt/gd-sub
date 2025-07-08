@@ -1055,7 +1055,7 @@
         (function () {
                 const originalWindowOpen = window.open;
                 window.open = function (url, ...args) {
-                    const blockedDomains = ['geometrydashlite.io', 'geometrydashmeltdown.com'];
+                    const blockedDomains = ['geometrydashlite.io', 'geometrydashsubzero.io'];
                     const targetDomain = (() => {
                         try {
                             return new URL(url).hostname;
@@ -1071,7 +1071,7 @@
                 const originalOpenURL = window.Application?.OpenURL;
                 if (originalOpenURL) {
                     window.Application.OpenURL = function (url) {
-                        const blockedDomains = ['geometrydashlite.io', 'geometrydashmeltdown.com'];
+                        const blockedDomains = ['geometrydashlite.io', 'geometrydashsubzero.io'];
                         const targetDomain = (() => {
                             try {
                                 return new URL(url).hostname;
