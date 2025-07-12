@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "GeometryDashSubZero",
+"productVersion": "0.1",
+"dataUrl": "GeometryDashSubzero_.data.unityweb",
+"wasmCodeUrl": "GeometryDashSubzero_.wasm.code.unityweb",
+"wasmFrameworkUrl": "GeometryDashSubzero_.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.24f1"
+}
